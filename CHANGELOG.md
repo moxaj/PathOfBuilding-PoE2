@@ -1,5 +1,40 @@
 # Changelog
 
+## [beta](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/tree/beta) (2026/06/03)
+
+[Full Changelog](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/compare/v0.17.1...beta)
+
+
+## What's Changed
+### New to Path of Building
+- Add support for Eye of Winter ground damage buffs [\#2069](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/pull/2069) ([LocalIdentity](https://github.com/LocalIdentity))
+- Add support for flask instant recovery belt mod [\#2068](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/pull/2068) ([LocalIdentity](https://github.com/LocalIdentity))
+- Add missing gems [\#2067](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/pull/2067) ([LocalIdentity](https://github.com/LocalIdentity))
+- Add support for additional Warcry Empowers [\#2071](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/pull/2071) ([Peechey](https://github.com/Peechey))
+- Trade: static stat data, better error handling, fix radius jewel [\#2020](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/pull/2020) ([vaisest](https://github.com/vaisest))
+- Add new 0.5 Spectres [\#2026](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/pull/2026) ([Blitz54](https://github.com/Blitz54))
+- Preserve skill selection on character reimport [\#2079](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/pull/2079) ([github-actions](https://github.com/github-actions)[bot])
+- Disable right click to paste in the notes tab [\#2085](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/pull/2085) ([LocalIdentity](https://github.com/LocalIdentity))
+- Add new 0.5 Minions [\#2084](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/pull/2084) ([LocalIdentity](https://github.com/LocalIdentity))
+### User Interface
+- Show Runic item headers and change "Ward" text on items to "Runic Ward" [\#2059](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/pull/2059) ([Blitz54](https://github.com/Blitz54))
+### Fixed Calculations
+- Fix Cold damage contributing to stun buildup [\#2070](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/pull/2070) ([LocalIdentity](https://github.com/LocalIdentity))
+- Fix Volcanic Eruption not scaling with Projectile damage [\#2062](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/pull/2062) ([MrHB212](https://github.com/MrHB212))
+- Fix Smith of Kitava Flowing Metal node not working [\#2016](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/pull/2016) ([vaisest](https://github.com/vaisest))
+- Fix some bonded Rune affects applying without Wisdom of the Maji [\#2076](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/pull/2076) ([LocalIdentity](https://github.com/LocalIdentity))
+- Fix Shrine sceptre Auras not making linked buffs have no Spirit cost [\#2077](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/pull/2077) ([LocalIdentity](https://github.com/LocalIdentity))
+### Fixed Behaviours
+- Fix Jewel mod sorting not working [\#2074](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/pull/2074) ([LocalIdentity](https://github.com/LocalIdentity))
+- Fix Crafted mods not importing from items [\#2064](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/pull/2064) ([LocalIdentity](https://github.com/LocalIdentity))
+- Fix Comet not showing DPS values [\#2046](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/pull/2046) ([LocalIdentity](https://github.com/LocalIdentity))
+- Fix gloves not importing when using Way of the Stonefist [\#2072](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/pull/2072) ([Eucelia](https://github.com/Eucelia))
+- Fix parsing for Hollow Palm Technique [\#2063](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/pull/2063) ([Eucelia](https://github.com/Eucelia))
+### Other changes
+- Release 0.18.0 [\#2086](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/pull/2086) ([github-actions](https://github.com/github-actions)[bot])
+
+
+
 ## [v0.18.0](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/tree/v0.18.0) (2026/06/04)
 
 [Full Changelog](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/compare/v0.17.1...v0.18.0)

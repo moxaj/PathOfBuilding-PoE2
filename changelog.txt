@@ -1,3 +1,37 @@
+VERSION[beta][2026/06/03]
+
+--- New to Path of Building ---
+* Add support for Eye of Winter ground damage buffs (LocalIdentity)
+* Add support for flask instant recovery belt mod (LocalIdentity)
+* Add missing gems (LocalIdentity)
+* Add support for additional Warcry Empowers (Peechey)
+* Trade: static stat data, better error handling, fix radius jewel (vaisest)
+* Add new 0.5 Spectres (Blitz54)
+* Preserve skill selection on character reimport (github-actions[bot])
+* Disable right click to paste in the notes tab (LocalIdentity)
+* Add new 0.5 Minions (LocalIdentity)
+
+--- User Interface ---
+* Show Runic item headers and change "Ward" text on items to "Runic Ward" (Blitz54)
+
+--- Fixed Calculations ---
+* Fix Cold damage contributing to stun buildup (LocalIdentity)
+* Fix Volcanic Eruption not scaling with Projectile damage (MrHB212)
+* Fix Smith of Kitava Flowing Metal node not working (vaisest)
+* Fix some bonded Rune affects applying without Wisdom of the Maji (LocalIdentity)
+* Fix Shrine sceptre Auras not making linked buffs have no Spirit cost (LocalIdentity)
+
+--- Fixed Behaviours ---
+* Fix Jewel mod sorting not working (LocalIdentity)
+* Fix Crafted mods not importing from items (LocalIdentity)
+* Fix Comet not showing DPS values (LocalIdentity)
+* Fix gloves not importing when using Way of the Stonefist (Eucelia)
+* Fix parsing for Hollow Palm Technique (Eucelia)
+
+--- Other changes ---
+* Release 0.18.0 (github-actions[bot])
+
+
 VERSION[0.18.0][2026/06/04]
 
 --- New to Path of Building ---
