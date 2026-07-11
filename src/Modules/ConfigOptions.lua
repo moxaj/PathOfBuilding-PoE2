@@ -1134,7 +1134,8 @@ Huge sets the radius to 11.
 		modList:NewMod("Condition:SkillCritRecently", "FLAG", true, "Config", { type = "Condition", var = "Combat" })
 		modList:NewMod("Condition:CritInPast8Sec", "FLAG", true, "Config", { type = "Condition", var = "Combat" })
 	end },
-	{ var = "conditionCritInPast8Sec", type = "check", label = "Have you Crit in the past 8s?", ifCond = "CritInPast8Sec", apply = function(val, modList, enemyModList)
+	{ var = "conditionCritInPast8Sec", type = "check", label = "Have you Crit in the past 8s?", ifCond = "CritInPast8Sec", tooltip = "This also implies that you have Crit Recently.", apply = function(val, modList, enemyModList)
+		modList:NewMod("Condition:CritRecently", "FLAG", true, "Config", { type = "Condition", var = "Combat" })
 		modList:NewMod("Condition:CritInPast8Sec", "FLAG", true, "Config", { type = "Condition", var = "Combat" })
 	end },
 	{ var = "conditionSkillCritRecently", type = "check", label = "Have your Skills Crit Recently?", ifCond = "SkillCritRecently", implyCond = "CritInPast8Sec", apply = function(val, modList, enemyModList)
